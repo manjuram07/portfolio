@@ -1,0 +1,86 @@
+/* Header Styles */
+.header {
+    background-color: #1f2937;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #facc15;
+}
+
+/* Skill Tags */
+.skill-tag {
+    display: inline-block;
+    background-color: #374151;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin: 5px;
+    color: white;
+}
+
+/* Project Cards */
+.project-card {
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Form */
+.input-field {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding: 12px;
+    background-color: #374151;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.submit-btn {
+    background-color: #facc15;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #fbbf24;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
